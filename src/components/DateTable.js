@@ -36,33 +36,34 @@ class DateTable extends Component {
     render(){  
     return (
         <DateList>
-        <Button onClick={this.toggleShowForm}>
+        <Button onClick={(a) => this.toggleShowForm(a)}>
        9am - 10am
+ 
         </Button>
-        <Button onClick={this.toggleShowForm}>
+        <Button onClick={(b) => this.toggleShowForm(b)}>
        10am - 11am
+      
         </Button>
-        <Button onClick={this.toggleShowForm}>
+        <Button onClick={(c) => this.toggleShowForm(c)}>
         11am - 12pm
 
         </Button>
-        <Button onClick={this.toggleShowForm}>
+        <Button onClick={(d) => this.toggleShowForm(d)}>
         12pm - 1pm
-
         </Button>
-        <Button onClick={this.toggleShowForm}>
+        <Button onClick={(e) => this.toggleShowForm(e)}>
         1pm - 2pm
 
         </Button>
-        <Button onClick={this.toggleShowForm}>
+        <Button onClick={(f) => this.toggleShowForm(f)}>
         2pm - 3pm
 
         </Button>
-        <Button onClick={this.toggleShowForm}>
+        <Button onClick={(g) => this.toggleShowForm(g)}>
         3pm - 4pm
 
         </Button>
-        <Button onClick={this.toggleShowForm}>
+        <Button onClick={(h) => this.toggleShowForm(h)}>
         4pm - 5pm
        
         </Button>
