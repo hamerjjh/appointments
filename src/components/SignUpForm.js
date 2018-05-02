@@ -25,7 +25,7 @@ import styled from "styled-components"
     margin-top: 10px;
     margin-bottom: 10px;
     font-family: 'Cabin Condensed', sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     color: rgb(17, 17, 114);
     label {
         padding-right: 5px;
@@ -38,7 +38,8 @@ import styled from "styled-components"
   `
 
   const NewFormText = styled.div`
-    font-size: 16px;
+    font-size: 28px;
+    text-align: center;
   `
 
 
@@ -82,7 +83,7 @@ class SignUpForm extends Component {
             
               <form onSubmit={this.handleSubmit}>
                     <FormText>
-                        <NewFormText>Enter Name and Number: </NewFormText>
+                        <NewFormText>Enter Name and Phone Number Below: </NewFormText>
                         <label htmlFor="name">Name </label>
                         <input onChange={this.handleChange} name="name" type="text" value={this.state.newPost.name} />
                     </FormText>
