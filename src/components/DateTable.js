@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components'
+import SignUpForm from './SignUpForm'
 
 const DateList = styled.div`
 width: 95%;
@@ -10,6 +11,7 @@ flex-wrap: wrap;
 `
 const Button = styled.div`
   display:block;
+  text-align: center;
   float:none;
   margin:5px auto;
   background:#80c0ff;
@@ -23,10 +25,19 @@ const Button = styled.div`
   clear:both;
 `
 
-const DateTable = () => {
+class DateTable extends Component {
+  state = {
+    showForm:false,
+  }
+  toggleShowForm = () => {
+    this.setState({ showForm: !this.state.showForm })
+  }
+
+    render(){  
     return (
         <DateList>
-        <Button>
+        <Button onClick={this.toggleShowForm}>
+        {this.state.showForm ? <SignUpForm toggleShowForm={this.toggleShowForm} pushPosts={this.props.pushPosts}  handleSubmit={this.handleSubmit} /> : null}
        9am - 10am
         </Button>
         <Button>
@@ -52,6 +63,7 @@ const DateTable = () => {
         </Button>
         </DateList>
     );
+}
 };
 
 export default DateTable;
