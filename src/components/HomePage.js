@@ -14,13 +14,11 @@ const HomePageStyles = styled.div`
       padding: 10px;
     }
     img {
-      margin-left: 500px;
-      height: 350px;
-      width: 500px;
-      @media only screen and (min-width: 1600px) {
-        margin-left: 600px;
-        padding-top: 10px;
-      }
+        
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
 `
 
