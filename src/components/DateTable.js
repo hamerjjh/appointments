@@ -37,29 +37,36 @@ class DateTable extends Component {
     return (
         <DateList>
         <Button onClick={this.toggleShowForm}>
-        {this.state.showForm ? <SignUpForm toggleShowForm={this.toggleShowForm} pushPosts={this.props.pushPosts}  handleSubmit={this.handleSubmit} /> : null}
        9am - 10am
+       {this.state.showForm ? <SignUpForm toggleShowForm={this.toggleShowForm} pushPosts={this.props.pushPosts}  handleSubmit={this.handleSubmit} /> : null}
         </Button>
-        <Button>
+        <Button onClick={this.toggleShowForm}>
        10am - 11am
+       {this.state.showForm ? <SignUpForm toggleShowForm={this.toggleShowForm} pushPosts={this.props.pushPosts}  handleSubmit={this.handleSubmit} /> : null}
         </Button>
-        <Button>
+        <Button onClick={this.toggleShowForm}>
         11am - 12pm
+        {this.state.showForm ? <SignUpForm toggleShowForm={this.toggleShowForm} pushPosts={this.props.pushPosts}  handleSubmit={this.handleSubmit} /> : null}
         </Button>
-        <Button>
+        <Button onClick={this.toggleShowForm}>
         12pm - 1pm
+        {this.state.showForm ? <SignUpForm toggleShowForm={this.toggleShowForm} pushPosts={this.props.pushPosts}  handleSubmit={this.handleSubmit} /> : null}
         </Button>
-        <Button>
+        <Button onClick={this.toggleShowForm}>
         1pm - 2pm
+        {this.state.showForm ? <SignUpForm toggleShowForm={this.toggleShowForm} pushPosts={this.props.pushPosts}  handleSubmit={this.handleSubmit} /> : null}
         </Button>
-        <Button>
+        <Button onClick={this.toggleShowForm}>
         2pm - 3pm
+        {this.state.showForm ? <SignUpForm toggleShowForm={this.toggleShowForm} pushPosts={this.props.pushPosts}  handleSubmit={this.handleSubmit} /> : null}
         </Button>
-        <Button>
+        <Button onClick={this.toggleShowForm}>
         3pm - 4pm
+        {this.state.showForm ? <SignUpForm toggleShowForm={this.toggleShowForm} pushPosts={this.props.pushPosts}  handleSubmit={this.handleSubmit} /> : null}
         </Button>
-        <Button>
+        <Button onClick={this.toggleShowForm}>
         4pm - 5pm
+        {this.state.showForm ? <SignUpForm toggleShowForm={this.toggleShowForm} pushPosts={this.props.pushPosts}  handleSubmit={this.handleSubmit} /> : null}
         </Button>
         </DateList>
     );
