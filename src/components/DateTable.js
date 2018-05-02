@@ -8,34 +8,48 @@ display: flex;
 flex-direction: column;
 flex-wrap: wrap; 
 `
+const Button = styled.div`
+  display:block;
+  float:none;
+  margin:5px auto;
+  background:#80c0ff;
+  width:200px;
+  border:0;
+  padding:5px 15px;
+  font-size:1.6em;
+  color:#FFF;
+  border-bottom:3px solid #4da7ff;
+  border-radius:2px;
+  clear:both;
+`
 
 const DateTable = () => {
     return (
         <DateList>
-        <div>
+        <Button>
        9am - 10am
-        </div>
-        <div>
+        </Button>
+        <Button>
        10am - 11am
-        </div>
-        <div>
+        </Button>
+        <Button>
         11am - 12pm
-        </div>
-        <div>
+        </Button>
+        <Button>
         12pm - 1pm
-        </div>
-        <div>
+        </Button>
+        <Button>
         1pm - 2pm
-        </div>
-        <div>
+        </Button>
+        <Button>
         2pm - 3pm
-        </div>
-        <div>
+        </Button>
+        <Button>
         3pm - 4pm
-        </div>
-        <div>
+        </Button>
+        <Button>
         4pm - 5pm
-        </div>
+        </Button>
         </DateList>
     );
 };
