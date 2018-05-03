@@ -14,7 +14,7 @@ const Button = styled.div`
   text-align: center;
   float:none;
   margin:5px auto;
-  background:#80c0ff;
+  background:#6bbeff;
   width:200px;
   border:0;
   padding:5px 15px;
