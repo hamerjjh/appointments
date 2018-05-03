@@ -92,7 +92,7 @@ class SignUpForm extends Component {
                         <textarea onChange={this.handleChange} name="number" type="text" value={this.state.newPost.number} />
                     </FormText>
                     
-                    <button>Schedule Time Slot</button>
+                    <button onClick={(a) => this.props.toggleButtonColor(this.props.activeButton)}>Schedule Time Slot</button>
                     </form>
              </NewPostForm>
              </NewPostFormContainer>
