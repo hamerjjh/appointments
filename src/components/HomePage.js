@@ -28,8 +28,8 @@ const HomePageStyles = styled.div`
 const HomePage = () => {
     return (
         <HomePageStyles>
-       <h1>Come Schedule a Meeting with</h1>
-       <img src ="https://vignette.wikia.nocookie.net/logopedia/images/b/b4/Cox_Automotive.jpg/revision/latest?cb=20171022133417" />
+       <h1>Come Schedule a Meeting</h1>
+       <img src ="https://qba.org.au/images/easyblog_articles/177/kick-off-meeting.jpg" />
         <h3>~Select a slot below and enter your information to schedule~</h3>
         <h4>Created By Jonathan Hamer</h4>
         
